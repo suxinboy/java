@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="java" />
+        <module name="mybatis" />
+        <module name="myhadoop" />
+        <module name="mymr" />
+        <module name="myspring" />
+        <module name="springmvc" />
+        <module name="ssm" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="java" target="7" />
+      <module name="mybatis" target="1.5" />
+      <module name="myhadoop" target="1.5" />
+      <module name="mymr" target="1.5" />
+      <module name="myspring" target="1.5" />
+      <module name="springmvc" target="1.5" />
+      <module name="ssm" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
